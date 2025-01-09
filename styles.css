@@ -1,0 +1,426 @@
+:root{
+    --nav-background: rgb(130, 68, 18);
+    --text-color:aliceblue;
+}
+*{
+  box-sizing:border-box;
+}
+
+body{
+  max-width: 100%;
+max-height: 100%;
+margin:0px;
+overflow-x: hidden;
+background-image:url('https://i.etsystatic.com/22406173/r/il/4ad9f5/2601261300/il_1588xN.2601261300_m71c.jpg');
+}
+
+
+#nav-bar{
+ background-color: var(--nav-background);
+ margin:-1em;
+ height:70px
+}
+
+.nav-bar,ul{
+display:grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly; 
+    align-content: space-evenly; 
+}
+
+.nav-link,li,a{
+  text-align:center;
+  text-decoration:none;
+  list-style-type:none;
+  color:aliceblue;
+  font-size:25px;
+  font-family:'bebas neue',sans-serif,helvetica;
+  padding-top:15px;
+}
+
+#intro-pic{
+  width:1500px;
+  height:500px;
+  filter: saturate(120%); 
+  z-index:1;
+  position:absolute;
+  transform:translateY(-13.5em);
+}
+
+.logo{
+  width:20px;
+  z-index:9;
+position:relative;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 1));
+  top: 50%;
+  left: 50%;
+  transform: translate(-70px, 20px);  
+}
+
+#usda-label{
+  position:relative;
+  top:70px;
+  z-index:9;
+  width:200px;
+}
+
+main{
+  padding:0px;
+  position:absolute;
+  transform:translate(0em,20em);
+}
+
+.introduction h2{
+  color:var(--text-color);
+  font-size:40px;
+  font-family:'rubik dirt',sans-serif,verdana;
+  font-weight:normal;
+  text-align:center;
+  transform: translateY(-6em);
+  text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4); 
+}
+
+.introduction p{
+  color:yellow;
+font-size:25px;
+font-family:'indie flower',sans-serif,verdana;
+font-weight:bold;
+  position:relative;
+  left:50%;
+  bottom:50%;
+transform:translateY(-6em);
+}
+
+.thinking-line{
+  position:absolute;
+  right:25%;
+  transform:translateY(-9em);
+}
+
+.ferret-pic1{
+  width:325px;
+  position:absolute;
+  right:10%;
+  transform:translateY(-8em);
+}
+
+.features{
+  position:relative;
+  top:25em;
+margin-bottom:20em;
+padding-bottom:20em;
+}
+
+.feature{
+   display: flex;
+  position:relative;
+}
+
+.icon img{
+display:inline-block;
+}
+
+.desc{
+ font-family:'bebas neue',sans-serif, verdana;
+ font-size:60px;
+ font-weight:bold;
+ color:red;
+ letter-spacing:5px;
+display:inline-block;
+ margin-top:10px;
+ margin-left:10px;
+ word-spacing:3px; 
+}
+
+.ad-video{
+  position:relative;
+  left:20%;
+  border:black 1px solid ;
+  border-radius:60px;
+  box-shadow: 22px 22px 5px rgb(0,0,0,0.5);
+margin-bottom:30em;
+
+
+}
+.ferret-pic2{
+  position:absolute;
+  top:15%;
+  left:25%;
+  transform:translate(-50%,-50%);
+}
+
+.ferret-pic4{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-40%,-48%);
+    z-index:10;
+}
+
+fieldset{
+    border:none;
+}
+form >img{
+    transform: translate(12em,0.5em);
+    margin-bottom: 10px;
+}
+
+section > #form{
+display:inline-block;
+  background-color: rgb(133, 220, 228);
+    height:600px;
+    width:500px;
+    border:black 1px solid;
+    border-radius: 5% ;
+    box-shadow: 25px 25px 50px rgb(0, 0, 0);
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+    z-index: 1; 
+}
+
+legend{
+    text-align: left;
+    color:rgb(20, 20, 20);
+    font-size:30px;
+    font-family:sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    padding: 25px 0 0 20px;
+    font-weight:550;
+}
+
+fieldset > p{
+    font-family: sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-weight:normal;
+    font-size:17px;
+    padding:0 20px 0px 20px;
+}
+
+fieldset > div{
+    display:flex;
+    align-items: center;
+}
+
+#name-label, #email-label, #number-label{
+    color:rgb(20, 20, 20);
+    display:block;
+    font-size: 17px;
+    padding-left:20px;
+    font-family:sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#name,#email,#phone-number{
+    height:50px;
+    width:430px;
+    border:rgb(103, 204, 255) 3px solid;
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+}
+
+fieldset > div{
+    margin:1px 0 20px 20px;
+}
+
+#checkbox{
+    margin-left:50px;
+    cursor:pointer;
+}
+
+#checkbox-label{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+}
+
+#submit{
+    background-color:rgb(187, 187, 187);
+    height:30px;
+    width:200px;
+    display:grid;
+    cursor:pointer;
+    font-size:15px;
+    border-radius:5px;
+    transform: translate(9em,-0.5em);
+    font-family: sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+#video{
+    box-shadow: -15px 15px 15px rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    top:50%;
+    left:50%;
+transform:translate(-50%,-40em);
+    z-index: 9;
+    margin-bottom:0;
+}
+
+.ferret-pic3{
+  position: relative;
+    top:50%;
+    left:50%;
+transform:translate(-20%,-10%);
+    z-index: 1;
+}
+
+.making-products > h3{
+    color:rgb(243, 243, 243);
+    font-size:1.4em;
+    font-family:sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    text-align: center;
+    position: relative;
+    top:50%;
+    left:50%;
+transform:translate(-50%, -10em);
+margin:30px;
+}
+
+.making-products p::first-letter{
+    font-size:48px;
+    color:rgb(255, 255, 27);
+    
+}
+
+.making-products{
+  position: relative;
+    top:50%;
+    left:50%;
+transform:translate(-50%,-10.5em);
+color:rgb(255, 255, 255);
+    font-size:1.4em;
+    font-family:sans-serif,'bebas neue','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    text-indent: 90px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    margin:10px;
+}
+
+i > h3{
+  color:red;
+  position:absolute;
+  right:28%;
+  top:10%;
+}
+
+h1{
+    color:hsl(0, 0%, 100%); 
+    font-family:sans-serif,Arial, Helvetica;
+    font-size: 3.5em;
+    line-height: 2px;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.996);
+    text-align: center;
+    position:relative;
+    top:1em;
+}
+#Products{
+    background-color: rgb(241, 197, 143);
+    background-image: linear-gradient(to right, rgb(241, 197, 143), var(--nav-background));
+    border:var(--nav-background) 4px inset;
+    margin:30px;
+}
+
+h1{
+    color:hsl(0, 0%, 100%); 
+  font-family:sans-serif,Arial, Helvetica;
+    font-size: 3.5em;
+    line-height: 2px;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.996);
+    text-align: center;
+  position:relative;
+    top:1em;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);  
+    gap: 4px;
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly; 
+    align-content: space-evenly; 
+    position: relative;
+    height:110em;
+}
+
+
+.product1 p, .product2 p, .product3 p, .product4 p, .product5 p, .product6 p, .product7 p, .product8 p, .product9 p {
+    font-size: 30px;
+    font-family: 'bebas neue',sans-serif,Arial, Helvetica;
+    position: relative;
+    top:50%;
+    left:50%;
+transform:translate(-50%, -50%);
+}
+.product1 h2, .product2 h2, .product3 h2, .product4 h2, .product5 h2, .product6 h2, .product7 h2, .product8 h2, .product9 h2 {
+    font-size: 30px;
+    margin:1px;
+    position: relative;
+    top:50%;
+    left:50%;
+transform:translate(-50%, -50%);
+}
+
+#About_Us{
+    color:var(--text-color);
+    font-family:caveat;
+    font-weight: bold;
+    font-size:40px;
+    letter-spacing: 1.5px;
+    text-indent: 90px;
+    line-height: 1.4em;
+    padding-bottom: 6em;
+    margin:30px;
+}
+
+
+footer{
+  background-color:var(--nav-background);
+}
+
+.contact-us{
+  text-align:center;
+  color:var(--text-color);
+  font-family:sans-serif,verdana,tahoma;
+  font-size:20px;
+  margin-top:10em;
+}
+
+.social-icons{
+  position:relative;
+  transform:translate(-50%,40%);
+   top:50%;
+   left:67%;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+   
+    #nav-bar ul{
+        height:40px;
+        width:140%;
+    }  
+ 
+    #nav-bar a{
+        font-size: 25px;
+        padding:10px;
+        margin:0px;
+    }
+
+    #nav-bar li{
+        float:right;
+        position:relative;
+        right:5em;
+        letter-spacing: 1px;
+    }
+    }
