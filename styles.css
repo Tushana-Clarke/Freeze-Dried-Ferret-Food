@@ -427,7 +427,6 @@ footer{
     }
 
     #nav-bar li{
-        letter-spacing: .5px;
         padding:1px;
         margin:0px;
         text-align: center;
@@ -463,8 +462,7 @@ footer{
       }
 
       header{
-        position:relative;
-        z-index: -1;
+      
         
 
       }
