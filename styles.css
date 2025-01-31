@@ -429,7 +429,7 @@ footer{
    
     #nav-bar{
         width:105vw;
-        height:7.5vh;
+        height:6.5vh;
         position:fixed;
         z-index:8;
        
@@ -456,16 +456,14 @@ footer{
         width: 20%;
         left:50%;
         z-index:7;
-        transform:translate(-2.5em,3em);         
+        transform:translate(-2.5em,2em);         
     }
 
     #intro-pic{
       width:100%;
       height:270px;
       filter: saturate(110%) brightness(0.6); 
-      z-index:1;
-      position:absolute;
-      transform:translateY(-9.5em);
+      transform:translateY(-10.5em);
     }
 
     #usda-label{
@@ -473,29 +471,24 @@ footer{
     }
 
     .introduction h2{
-      font-size:13px;
+      font-size:12px;
       transform: translate(0); 
     }
 
     .introduction p{
       font-size:10px;
       color:aliceblue;
-      left:50%;
-      bottom:50%;
-      transform:translate(-10em,19em);
-      text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4); 
+      transform:translate(-4em,19em); 
     }
     
     .thinking-line{
-      position:absolute;
       width:25px;
-      transform:translate(-5em,16em);
+      transform:translate(-1em,12em);
     }
     
     .ferret-pic1{
       width:110px;
-      position:absolute;
-      transform:translate(-4em,16.5em);
+      transform:translate(0em,12.5em);
     }
     
     .features{
