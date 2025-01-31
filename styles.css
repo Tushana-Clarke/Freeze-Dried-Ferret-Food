@@ -471,28 +471,27 @@ footer{
     }
 
     .introduction h2{
-      font-size:12px;
-      transform: translate(0); 
+      font-size:13px;
+      transform: translateY(-1em); 
     }
 
     .introduction p{
       font-size:10px;
-      color:aliceblue;
-      transform:translate(-4em,19em); 
+      transform:translate(-7em,2em); 
     }
     
     .thinking-line{
       width:25px;
-      transform:translate(-1em,12em);
+      transform:translate(-1em,2em);
     }
     
     .ferret-pic1{
       width:110px;
-      transform:translate(0em,12.5em);
+      transform:translate(1em,2em);
     }
     
     .features{
-      top:-0em;
+      top:8em;
       padding-bottom:10em;
     }
     
@@ -508,10 +507,11 @@ footer{
     }
     
     .desc{
-     font-family:'bebas neue',sans-serif, verdana;
+     font-family:'rubik dirt',sans-serif, verdana;
+     font-weight: 100;
      text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4); 
      font-size:18px;
-     color:rgb(62, 151, 252);
+     color:aliceblue;
      letter-spacing:1px;
      margin-left:1px;
      word-spacing:2px; 
