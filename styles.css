@@ -695,21 +695,17 @@ footer{
     
     .product-container{
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: repeat(2, 1fr);  
-        gap: 1px;
-        row-gap: 2px;
-        align-items: center;
-        justify-items: center;
-        justify-content: space-evenly; 
-        align-content: space-evenly; 
-        position: relative;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        gap: 5px;
+        row-gap: -7em;
         height:50em;
+        width:20em;
     }
     
     
     .product1 p, .product2 p, .product3 p, .product4 p, .product5 p, .product6 p, .product7 p, .product8 p, .product9 p {
-        font-size: 30px;
+        font-size: 10px;
         font-family: 'bebas neue',sans-serif,Arial, Helvetica;
         position: relative;
         top:50%;
@@ -717,7 +713,7 @@ footer{
         transform:translate(-50%, -50%);
     }
     .product1 h2, .product2 h2, .product3 h2, .product4 h2, .product5 h2, .product6 h2, .product7 h2, .product8 h2, .product9 h2 {
-        font-size: 30px;
+        font-size: 12px;
         margin:1px;
         position: relative;
         top:50%;
@@ -725,8 +721,8 @@ footer{
         transform:translate(-50%, -50%);
     }
 
-    .product1 img{
-      width:100px
+    .product1 img,.product2 img,.product3 img,.product4 img,.product5 img,.product6 img,.product7 img,.product8 img,.product9 img{
+      width:80px
     }
     
     #About_Us{
