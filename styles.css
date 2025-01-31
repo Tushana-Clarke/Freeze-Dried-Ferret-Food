@@ -640,11 +640,11 @@ footer{
     
     .making-products > h3{
         color:aliceblue;
-        font-size:15px;
+        font-size:12px;
         font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-indent: 10px;
         transform:translate(-60%, -10em);
-        margin-top:-20em;
+        margin-top:-25em;
         margin-bottom:-2em;
     }
     
@@ -655,7 +655,7 @@ footer{
     .making-products{
         transform:translate(-52%,-10em);
         color:aliceblue;
-        font-size:12px;
+        font-size:10px;
         font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-indent: 40px;
         letter-spacing: 0.8px;
@@ -688,29 +688,23 @@ footer{
     }
     
     h1{
-        color:hsl(0, 0%, 100%); 
-      font-family:sans-serif,Arial, Helvetica;
-        font-size: 3.5em;
-        line-height: 2px;
-        letter-spacing: 5px;
-        text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.996);
-        text-align: center;
-      position:relative;
-        top:1em;
+        color:aliceblue; 
+        font-family:sans-serif,Arial, Helvetica;
+        font-size: 20px;
     }
     
     .product-container{
         display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-        grid-template-rows: repeat(3, 1fr);  
-        gap: 4px;
-        row-gap: 10px;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, 1fr);  
+        gap: 1px;
+        row-gap: 2px;
         align-items: center;
         justify-items: center;
         justify-content: space-evenly; 
         align-content: space-evenly; 
         position: relative;
-        height:110em;
+        height:50em;
     }
     
     
@@ -720,7 +714,7 @@ footer{
         position: relative;
         top:50%;
         left:50%;
-    transform:translate(-50%, -50%);
+        transform:translate(-50%, -50%);
     }
     .product1 h2, .product2 h2, .product3 h2, .product4 h2, .product5 h2, .product6 h2, .product7 h2, .product8 h2, .product9 h2 {
         font-size: 30px;
@@ -728,7 +722,11 @@ footer{
         position: relative;
         top:50%;
         left:50%;
-    transform:translate(-50%, -50%);
+        transform:translate(-50%, -50%);
+    }
+
+    .product1 img{
+      width:100px
     }
     
     #About_Us{
