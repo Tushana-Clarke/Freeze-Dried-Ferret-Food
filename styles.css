@@ -492,7 +492,7 @@ footer{
     
     .features{
       top:9em;
-      padding-bottom:10em;
+      padding-bottom:5em;
     }
     
     .feature{
@@ -511,20 +511,20 @@ footer{
      font-weight: 100;
      text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4); 
      font-size:18px;
-     color:rgb(2, 133, 248);
+     color:aliceblue;
      letter-spacing:1px;
      margin-left:1px;
      word-spacing:2px; 
     }
     
     .ad-video{
-      display:none;
-     position:relative;
-     left:20%;
-     border:black 1px solid ;
-     border-radius:60px;
-     box-shadow: 22px 22px 5px rgb(0,0,0,0.5);
-     margin-bottom:30em;
+     display:none;
+     transform:translate(-23em,-9em);
+     width:50em;
+     border:none;
+     border-radius:0px;
+     box-shadow:none;
+     margin-bottom:0em;
     
     
     }
@@ -544,7 +544,11 @@ footer{
     section > #form{
         height:400px;
         width:300px;
-        margin-bottom:30em;
+        margin-bottom:20em;
+        position: relative;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-12.5em);
     }
     
     legend{
@@ -618,14 +622,9 @@ footer{
     }
     
     #video{
-        box-shadow: -15px 15px 15px rgb(0, 0, 0);
-        border-radius: 10px;
-        position: relative;
-        top:50%;
-        left:50%;
+        border-radius: 5px;
         transform:translate(-50%,-50em);
-        width:300px;
-        z-index: 9;
+        width:450px;
         margin-top:30em;
     }
     
