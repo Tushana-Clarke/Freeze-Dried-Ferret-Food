@@ -694,9 +694,9 @@ footer{
     }
 
     #Products{
-      transform: translate(-50%,-50%);
+      transform: translate(50%,-50%);
       position:relative;
-      left:13%;
+      left:-24%;
       top:50%;
       margin:0;
       width:350px;
