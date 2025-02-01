@@ -694,9 +694,12 @@ footer{
     }
 
     #Products{
-      transform: translate(0,-30%);
+      transform: translate(-10%,-50%);
+      position:relative;
+      left:13%;
+      top:50%;
       margin:0;
-      width:30em;
+      width:350px;
     }
     
     .product-container{
@@ -727,8 +730,26 @@ footer{
         transform:translate(-50%, -50%);
     }
 
-    .product1 img,.product2 img,.product3 img,.product4 img,.product5 img,.product6 img,.product7 img,.product8 img,.product9 img{
-      width:80px
+    .product1 img,.product2 img,.product3 img{
+      width:50px;
+      position:relative;
+      right:11px;
+    }
+
+    .product4 img,.product5 img,.product6 img{
+      width:90px;
+      position:relative;
+      right:11px;
+    }
+
+    .product7 img,.product8 img,.product9 img{
+      width:60px;
+      position:relative;
+      right:18px;
+    }
+
+    .button{
+      font-size:9px;
     }
     
     #About_Us{
