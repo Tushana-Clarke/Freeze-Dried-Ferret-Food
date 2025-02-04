@@ -643,7 +643,7 @@ footer{
         font-size:12px;
         font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-indent: 10px;
-        transform:translate(-60%, -10em);
+        transform:translate(-60%, -12em);
         margin-top:-25em;
         margin-bottom:-2em;
     }
@@ -696,33 +696,38 @@ footer{
     #Products{
       transform: translate(50%,-50%);
       position:relative;
-      left:-24%;
+      left:-15%;
       top:50%;
       margin:0;
-      width:350px;
+      width:310px;
     }
     
     .product-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: repeat(3, 1fr); 
-        gap: 5px;
+        gap: 4px;
         row-gap: -7em;
         height:35em;
+        transform: translateY(-5px);
         
     }
     
+    #entree{
+      display:none;
+    }
     
     .product1 p, .product2 p, .product3 p, .product4 p, .product5 p, .product6 p, .product7 p, .product8 p, .product9 p {
-        font-size: 10px;
-        font-family: 'bebas neue',sans-serif,Arial, Helvetica;
-        position: relative;
-        top:50%;
-        left:50%;
-        transform:translate(-50%, -50%);
+        font-size: 11px;
     }
+
+    .product4 p, .product5 p, .product6 p{
+      position:relative;
+      right:10px;
+    }
+
     .product1 h2, .product2 h2, .product3 h2, .product4 h2, .product5 h2, .product6 h2, .product7 h2, .product8 h2, .product9 h2 {
-        font-size: 12px;
+        font-size: 10.5px;
         margin:1px;
         position: relative;
         top:50%;
@@ -731,37 +736,49 @@ footer{
     }
 
     .product1 img,.product2 img,.product3 img{
-      width:50px;
+      width:55px;
       position:relative;
-      right:11px;
+      left:10px;
     }
 
     .product4 img,.product5 img,.product6 img{
-      width:90px;
+      width:95px;
       position:relative;
-      right:11px;
+    }
+
+    .product6 img{
+      position:relative;
+      right:10%;
     }
 
     .product7 img,.product8 img,.product9 img{
-      width:60px;
+      width:65px;
       position:relative;
-      right:18px;
+      right:6px;
     }
 
     .button{
       font-size:9px;
+    }
+    .product1 button,.product2 button,.product3 button,.product4 button,.product5 button,.product6 button,.product7 button,.product8 button,.product9 button{
+      font-size:9px;
+    }
+
+    .product4 button,.product5 button,.product6 {
+      position:relative;
+      left:10%;
     }
     
     #About_Us{
         color:var(--text-color);
         font-family:caveat;
         font-weight: bold;
-        font-size:40px;
+        font-size:12px;
         letter-spacing: 1.5px;
         text-indent: 90px;
         line-height: 1.4em;
         padding-bottom: 6em;
-        margin:30px;
+        margin:-25em 4.5em 10em 4.5em;
     }
     
     
