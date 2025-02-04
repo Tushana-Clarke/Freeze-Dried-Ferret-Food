@@ -699,7 +699,7 @@ footer{
       left:-15%;
       top:50%;
       margin:0;
-      width:310px;
+      width:250px;
     }
     
     .product-container{
@@ -757,6 +757,15 @@ footer{
       right:6px;
     }
 
+    @keyframes scrollImage {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
     .button{
       font-size:9px;
     }
@@ -773,12 +782,12 @@ footer{
         color:var(--text-color);
         font-family:caveat;
         font-weight: bold;
-        font-size:12px;
+        font-size:14px;
         letter-spacing: 1.5px;
         text-indent: 90px;
         line-height: 1.4em;
         padding-bottom: 6em;
-        margin:-25em 4.5em 10em 4.5em;
+        margin:-25em 1.5em 10em 1.5em;
     }
     
     
