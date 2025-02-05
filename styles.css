@@ -477,17 +477,17 @@ footer{
 
     .introduction p{
       font-size:10px;
-      transform:translate(-8em,3em); 
+      transform:translate(-15em,3em); 
     }
     
     .thinking-line{
       width:25px;
-      transform:translate(-1em,2em);
+      transform:translate(-8em,2em);
     }
     
     .ferret-pic1{
       width:110px;
-      transform:translate(1em,2em);
+      transform:translate(-7em,2em);
     }
     
     .features{
@@ -684,7 +684,7 @@ footer{
         background-color: rgb(241, 197, 143);
         background-image: linear-gradient(to right, rgb(241, 197, 143), var(--nav-background));
         border:var(--nav-background) 4px inset;
-        margin:30px;
+        margin:10px;
     }
     
     h1{
@@ -696,10 +696,10 @@ footer{
     #Products{
       transform: translate(50%,-50%);
       position:relative;
-      left:-15%;
+      left:-25%;
       top:50%;
       margin:0;
-      width:250px;
+      width:300px;
     }
     
     .product-container{
@@ -757,15 +757,6 @@ footer{
       right:6px;
     }
 
-    @keyframes scrollImage {
-      0% {
-        transform: translateX(100%);
-      }
-      100% {
-        transform: translateX(-100%);
-      }
-    }
-
     .button{
       font-size:9px;
     }
@@ -779,37 +770,64 @@ footer{
     }
     
     #About_Us{
-        color:var(--text-color);
-        font-family:caveat;
-        font-weight: bold;
-        font-size:14px;
-        letter-spacing: 1.5px;
-        text-indent: 90px;
-        line-height: 1.4em;
-        padding-bottom: 6em;
-        margin:-25em 1.5em 10em 1.5em;
+      background-color: rgb(241, 197, 143);
+      background-image: linear-gradient(to right, rgb(198, 148, 86), var(--nav-background));
+      border:var(--nav-background) 4px inset;
+       color:var(--text-color);
+       font-family:caveat;
+       font-weight: bold;
+       font-size:14px;
+       letter-spacing: 1.5px;
+       text-indent: 90px;
+       line-height: 1.4em;
+       padding:2px;
+       margin:-25em 1.5em 10em 1.5em;
     }
     
     
     footer{
-      background-color:var(--nav-background);
+      height:12em;
+      padding:0;
+      margin:0;
+    }
+      
     }
     
     .contact-us{
-      text-align:center;
-      color:var(--text-color);
-      font-family:sans-serif,verdana,tahoma;
       font-size:20px;
-      margin-top:10em;
+      padding:0;
+      margin:0;
     }
     
+    .contact-us p,.contact-us h2,.contact-email{
+     position:relative;
+     padding:5px;
+     margin:0;
+     font-size:17px;
+      
+    }
+
+    .social-icons a{
+      font-size:17px;
+    }
+
     .social-icons{
       position:relative;
-      transform:translate(-50%,40%);
-       top:50%;
-       left:67%;
+      top:50%;
+      left:50%;
+      transform:translate(-30%,0%);
+      padding:0;
+      margin:0;
     }
 
-
-
+    .copy{
+     font-size:14px;
+     padding:0;
+     margin:0;
+     position:relative;
+      top:-30%;
+      left:0%;
     }
+    
+
+  }
